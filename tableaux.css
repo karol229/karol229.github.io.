@@ -1,0 +1,51 @@
+td /* Toutes les cellules des tableaux... */
+{
+border: 1px solid black; /* ... auront une bordure de 1px */
+}
+
+.un
+{
+border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+}
+td
+{
+border: 1px solid black;
+}
+
+.deux
+{
+border-collapse: collapse;
+}
+td, th /* Mettre une bordure sur les td ET les th */
+{
+border: 1px solid black;
+}
+
+.trois
+{
+caption-side: right
+border-collapse: collapse;
+vertical-align: bottom;
+}
+
+.quatre
+{
+	background-color: blue ;
+caption-side: bottom;
+border-collapse: collapse;
+vertical-align: bottom;
+}
+
+.ok
+{
+color: green
+}
+
+.ko
+{
+color: red
+}
+body
+{
+background-color: green blue
+}
